@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { useSelector } from 'react-redux';
 import { nanoid } from 'nanoid';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
